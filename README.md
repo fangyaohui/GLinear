@@ -1,12 +1,12 @@
 # GLinear
 
 
-
 ## Detailed Description
 This code is built on the code base of LTSF-Linear Predictors. We would like to thanks the following GitHub repo for its valuable code bases, datasets and detailed description:
 
+[https://github.com/cure-lab/LTSF-Linear](https://github.com/cure-lab/LTSF-Linear)
 
-[GitHub]([https://github.com/cure-lab/LTSF-Linear](https://github.com/cure-lab/LTSF-Linear))
+Required Environment can be installed using instructions given in above link. 
 
 ## Training the GLinear and Other Predictors:
 
