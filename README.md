@@ -2,7 +2,7 @@
 This repository is the official Pytorch implementation of GLinear Predictor: "Paper Link".
 
 ## Description
-This code is built on the code base of LTSF-Linear Predictors (NLinear, DLinear). We would like to thank the following GitHub repository for their valuable code bases, datasets and detailed descriptions:
+This code is built on the code base of LTSF-Linear Predictors (**NLinear**, **DLinear**). We would like to thank the following GitHub repository for their valuable code bases, datasets and detailed descriptions:
 
 [https://github.com/cure-lab/LTSF-Linear](https://github.com/cure-lab/LTSF-Linear)
 
