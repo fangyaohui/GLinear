@@ -2,6 +2,8 @@
 This repository is the official Pytorch implementation of GLinear Predictor: "Paper Link".
 
 ## Description
+
+## Acknowledgment
 This code is built on the code base of LTSF-Linear Predictors (**NLinear**, **DLinear**). We would like to thank the following GitHub repository for their valuable code bases, datasets and detailed descriptions:
 
 [https://github.com/cure-lab/LTSF-Linear](https://github.com/cure-lab/LTSF-Linear)
@@ -29,6 +31,11 @@ All processed datasets are in the ./dataset directory
 
 ### Use Following Command to Train Linear Predictors for Varying Prediction Lengths: 
 ```bash scripts/EXP-LookBackWindow_\&_LongForecasting/Linear_LongForecasting.sh```
+
+### Results
+All the results will be shown in ./logs directory
+
+
 
 
 
