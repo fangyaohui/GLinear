@@ -11,6 +11,15 @@ The architecture of GLinear predictor is composed of two fully-connected layers 
 
 The **Reversible Instance Normalization (RevIN)**  is applied to the input and output layer of GLinear model. The normalization layer transforms the original data distribution into a mean-centred distribution, where the distribution discrepancy between different instances is reduced. This normalized data is then applied as new input to the used predictor and then final output is denormalized at last step to provide the final prediction.
 
+1. RevIN Normalization:
+2. Linear transformation:
+3. GELU activation:
+4. Second Linear transformation:
+5. RevIN Denormalization:
+
+
+
+
 ## Acknowledgment
 This code is built on the code base of LTSF-Linear Predictors (**NLinear**, **DLinear**). We would like to thank the following GitHub repository for their valuable code bases, datasets and detailed descriptions:
 
