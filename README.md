@@ -35,9 +35,11 @@ All processed datasets are in the ./dataset directory
 ### Results
 All the results will be shown in ./logs directory
 
-
-
-
+## Citing
+If you use or find this code repository useful, consider citing it as follows:
+```
+S.Tahir.H.Rizvi and N. Kanwal
+```
 
 
 
