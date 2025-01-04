@@ -1,5 +1,5 @@
 # GLinear: A Linear Predictor for Multivariate Time Series Forecasting
-This repository is the official Pytorch implementation of GLinear Predictor: "Paper Link".
+This repository is the official Pytorch implementation of GLinear Predictor: ["Paper Link".](https://arxiv.org/pdf/2501.01087)
 
 ## Description
 
@@ -42,6 +42,7 @@ pip install -r requirements.txt
 
 ### Datasets
 All processed datasets are in the ./dataset directory
+Etth1, Electricity, Weather, and Traffic
 
 ### Use Following Command to Train Linear Predictors for Varying LookBack Windows: 
 ```bash scripts/EXP-LookBackWindow_\&_LongForecasting/Linear_LookBackWindow.sh```
@@ -52,10 +53,23 @@ All processed datasets are in the ./dataset directory
 ### Results
 All the results will be shown in ./logs directory
 
+
+![image](https://github.com/user-attachments/assets/ae2428ae-f018-4f75-8f1d-d86511b07ff7)
+
+![image](https://github.com/user-attachments/assets/208b0cdd-6224-4cf2-a78c-aab4400bcb98)
+
+![image](https://github.com/user-attachments/assets/8876a01c-4461-4f87-bb71-f1e36499ccc7)
+
+
 ## Citing
 If you use or find this code repository useful, consider citing it as follows:
-```
-S.Tahir.H.Rizvi and N. Kanwal
+```@misc{glinear2025,
+  title={Bridging Simplicity and Sophistication using GLinear: A Novel Architecture for Enhanced Time Series Prediction},
+  author={Syed Tahir Hussain Rizvi; Neel Kanwal; Muddasar Naeem; Alfredo Cuzzocrea; and Antonio Coronato}, % Replace with your actual name
+  year={2025},
+  eprint={arXiv:2501.01087}, % Replace with the actual arXiv identifier
+  publisher={arXiv}}
+
 ```
 
 
