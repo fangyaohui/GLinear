@@ -1,0 +1,24 @@
+2025-04-19 11:42:41,660 - exp.exp_main - INFO - Logger initialized successfully
+2025-04-19 11:42:41,662 - exp.exp_main - INFO - 确保结果目录存在: ./train_result/ETTh1_GLinear_ETTh1_ftM_sl336ll48pl24_dm512nh8el2dl1_df2048_fc1ebtimeFdtTrue_Exp_0\result_csv/
+2025-04-19 11:43:12,279 - exp.exp_main - INFO - 	iters: 100, epoch: 1 | loss: 0.3974369
+2025-04-19 11:43:12,279 - exp.exp_main - INFO - 	speed: 0.3055s/iter; left time: 285.9170s
+2025-04-19 11:43:12,581 - exp.exp_main - INFO - 	iters: 200, epoch: 1 | loss: 0.1793086
+2025-04-19 11:43:12,583 - exp.exp_main - INFO - 	speed: 0.0030s/iter; left time: 2.5357s
+2025-04-19 11:43:12,878 - exp.exp_main - INFO - 	iters: 300, epoch: 1 | loss: 0.2432493
+2025-04-19 11:43:12,878 - exp.exp_main - INFO - 	speed: 0.0029s/iter; left time: 2.1703s
+2025-04-19 11:43:13,161 - exp.exp_main - INFO - 	iters: 400, epoch: 1 | loss: 0.2679332
+2025-04-19 11:43:13,162 - exp.exp_main - INFO - 	speed: 0.0028s/iter; left time: 1.8120s
+2025-04-19 11:43:13,455 - exp.exp_main - INFO - 	iters: 500, epoch: 1 | loss: 0.2526236
+2025-04-19 11:43:13,456 - exp.exp_main - INFO - 	speed: 0.0029s/iter; left time: 1.5735s
+2025-04-19 11:43:13,735 - exp.exp_main - INFO - 	iters: 600, epoch: 1 | loss: 0.2308761
+2025-04-19 11:43:13,737 - exp.exp_main - INFO - 	speed: 0.0028s/iter; left time: 1.2245s
+2025-04-19 11:43:14,032 - exp.exp_main - INFO - 	iters: 700, epoch: 1 | loss: 0.3083184
+2025-04-19 11:43:14,032 - exp.exp_main - INFO - 	speed: 0.0029s/iter; left time: 0.9907s
+2025-04-19 11:43:14,326 - exp.exp_main - INFO - 	iters: 800, epoch: 1 | loss: 0.2940053
+2025-04-19 11:43:14,326 - exp.exp_main - INFO - 	speed: 0.0029s/iter; left time: 0.6905s
+2025-04-19 11:43:14,637 - exp.exp_main - INFO - 	iters: 900, epoch: 1 | loss: 0.5878361
+2025-04-19 11:43:14,639 - exp.exp_main - INFO - 	speed: 0.0031s/iter; left time: 0.4238s
+2025-04-19 11:43:14,948 - exp.exp_main - INFO - 	iters: 1000, epoch: 1 | loss: 0.3310682
+2025-04-19 11:43:14,948 - exp.exp_main - INFO - 	speed: 0.0031s/iter; left time: 0.1113s
+2025-04-19 11:43:15,958 - exp.exp_main - INFO - Epoch: 1 cost time: 33.644248485565186
+2025-04-19 11:44:17,659 - exp.exp_main - INFO - Epoch: 1, Steps: 1035 | Train Loss: 0.2753958 Vali Loss: 0.4404659 Test Loss: 0.3329054

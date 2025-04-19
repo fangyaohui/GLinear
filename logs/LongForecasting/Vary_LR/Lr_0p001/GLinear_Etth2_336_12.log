@@ -1,4 +1,0 @@
-Args in experiment:
-Namespace(activation='gelu', batch_size=32, c_out=7, checkpoints='/spo/NewbornTime/tahir098/SVF/data/Extra/checkpoints/', d_ff=2048, d_layers=1, d_model=512, data='Etth2', data_path='Etth2.csv', dec_in=7, des='Exp', devices='0,1,2,3', distil=True, do_predict=False, dropout=0.05, e_layers=2, embed='timeF', embed_type=0, enc_in=7, factor=1, features='M', freq='h', gpu=0, individual=False, is_training=1, itr=1, label_len=48, learning_rate=0.001, loss='mse', lradj='type1', model='GLinear', model_id='Etth2_336_12', moving_avg=25, n_heads=8, num_workers=10, output_attention=False, patience=3, pred_len=12, root_path='./dataset/', seq_len=336, target='OT', test_flop=False, train_epochs=10, train_only=False, use_amp=False, use_gpu=True, use_multi_gpu=False)
-Use GPU: cuda:0
->>>>>>>start training : Etth2_336_12_GLinear_Etth2_ftM_sl336_ll48_pl12_dm512_nh8_el2_dl1_df2048_fc1_ebtimeF_dtTrue_Exp_0>>>>>>>>>>>>>>>>>>>>>>>>>>

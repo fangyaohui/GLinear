@@ -35,8 +35,8 @@ Furthermore, we would also like to thank the pytorch implementation of **RLinear
 First, create the conda environment and install the required tools and libraries, as follows:
 
 ```
-conda create -n GLinear python=3.6.9
-conda activate GLinear
+conda create -n glinear python=3.10
+conda activate glinear
 pip install -r requirements.txt
 ```
 

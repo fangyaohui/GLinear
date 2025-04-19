@@ -1,3 +1,4 @@
 /home/stud/tahir098/Desktop/traffic.csv filter=lfs diff=lfs merge=lfs -text
 dataset/electricity.csv filter=lfs diff=lfs merge=lfs -text
 dataset/traffic.csv filter=lfs diff=lfs merge=lfs -text
+./train_result/
