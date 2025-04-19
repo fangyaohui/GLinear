@@ -117,10 +117,11 @@ def train_ETTh1_GLinear_336_24():
     argparse.enc_in = 7
     argparse.des = "Exp"
     argparse.itr = 1
-    argparse.batch_size = 8
+    argparse.batch_size = 16
     argparse.learning_rate = 0.001
-    argparse.train_epochs = 1
+    argparse.train_epochs = 800
     argparse.use_gpu = True
+    # argparse.do_predict = True
 
 
 

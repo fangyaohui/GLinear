@@ -251,7 +251,7 @@ class Exp_Main(Exp_Basic):
         # 计算每个epoch的训练步数（总batch数）
         train_steps = len(train_loader)
         # 初始化早停策略对象，设置耐心值和是否显示提示信息
-        early_stopping = EarlyStopping(patience=self.args.patience, verbose=True)
+        # early_stopping = EarlyStopping(patience=self.args.patience, verbose=True)
         # 选择优化器（Adam/SGD等）
         model_optim = self._select_optimizer()
         # 选择损失函数（MSE/MAE等）
@@ -374,18 +374,18 @@ class Exp_Main(Exp_Basic):
                 self.logger.info("Epoch: {0}, Steps: {1} | Train Loss: {2:.7f} Vali Loss: {3:.7f} Test Loss: {4:.7f}".format(
                     epoch + 1, train_steps, train_loss, vali_loss, test_loss))
                 # 执行早停策略（以验证损失为判断依据）
-                early_stopping(vali_loss, self.model, path)
+                # early_stopping(vali_loss, self.model, path)
             else:
                 # 仅训练模式下的打印信息
                 self.logger.info("Epoch: {0}, Steps: {1} | Train Loss: {2:.7f}".format(
                     epoch + 1, train_steps, train_loss))
                 # 以训练损失作为早停判断依据（不推荐但可用）
-                early_stopping(train_loss, self.model, path)
+                # early_stopping(train_loss, self.model, path)
 
-            # 检测是否触发早停
-            if early_stopping.early_stop:
-                self.logger.info("Early stopping")  # 提前终止提示
-                break  # 跳出训练循环
+            # # 检测是否触发早停
+            # if early_stopping.early_stop:
+            #     self.logger.info("Early stopping")  # 提前终止提示
+            #     break  # 跳出训练循环
 
             # 初始化日志数据结构（在epoch循环内）
             log_data = {
