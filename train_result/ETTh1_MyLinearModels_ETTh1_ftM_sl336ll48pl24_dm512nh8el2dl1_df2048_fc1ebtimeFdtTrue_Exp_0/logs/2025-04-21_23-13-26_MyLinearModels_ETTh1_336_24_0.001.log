@@ -1,0 +1,13 @@
+2025-04-21 23:13:26,280 - exp.exp_main - INFO - Logger initialized successfully
+2025-04-21 23:13:26,280 - exp.exp_main - INFO - 确保结果目录存在: ./train_result/ETTh1_MyLinearModels_ETTh1_ftM_sl336ll48pl24_dm512nh8el2dl1_df2048_fc1ebtimeFdtTrue_Exp_0\result_csv/
+2025-04-21 23:14:33,812 - exp.exp_main - INFO - 	iters: 100, epoch: 1 | loss: 0.3348066
+2025-04-21 23:14:33,812 - exp.exp_main - INFO - 	speed: 0.6744s/iter; left time: 278854.5841s
+2025-04-21 23:14:34,284 - exp.exp_main - INFO - 	iters: 200, epoch: 1 | loss: 0.2878520
+2025-04-21 23:14:34,286 - exp.exp_main - INFO - 	speed: 0.0047s/iter; left time: 1956.2917s
+2025-04-21 23:14:34,729 - exp.exp_main - INFO - 	iters: 300, epoch: 1 | loss: 0.3436932
+2025-04-21 23:14:34,729 - exp.exp_main - INFO - 	speed: 0.0044s/iter; left time: 1829.6230s
+2025-04-21 23:14:35,169 - exp.exp_main - INFO - 	iters: 400, epoch: 1 | loss: 0.3297229
+2025-04-21 23:14:35,171 - exp.exp_main - INFO - 	speed: 0.0044s/iter; left time: 1828.0130s
+2025-04-21 23:14:35,626 - exp.exp_main - INFO - 	iters: 500, epoch: 1 | loss: 0.2520522
+2025-04-21 23:14:35,626 - exp.exp_main - INFO - 	speed: 0.0045s/iter; left time: 1877.5990s
+2025-04-21 23:14:37,067 - exp.exp_main - INFO - Epoch: 1 cost time: 69.77341985702515

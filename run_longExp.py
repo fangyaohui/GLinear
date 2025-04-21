@@ -122,13 +122,41 @@ def train_ETTh1_GLinear_336_24():
     argparse.train_epochs = 800
     argparse.use_gpu = True
     # argparse.do_predict = True
+    return argparse
+
+
+def train_ETTh1_MyModels_336_24():
+    argparse = parser.parse_args()
+
+    argparse.is_training = 1
+    argparse.root_path = "./dataset/"
+    argparse.data_path = "ETTh1.csv"
+    argparse.model_id = 'ETTh1'
+    argparse.model = "MyLinearModels"
+    argparse.data = "ETTh1"
+    argparse.features = "M"
+    argparse.seq_len = 336
+    argparse.pred_len = 24
+    argparse.enc_in = 7
+    argparse.des = "Exp"
+    argparse.itr = 1
+    argparse.batch_size = 16
+    argparse.learning_rate = 0.001
+    argparse.train_epochs = 800
+    argparse.use_gpu = True
+    # argparse.do_predict = True
 
 
 
     return argparse
 
 def main():
-    args = train_ETTh1_GLinear_336_24()
+
+    # args = train_ETTh1_GLinear_336_24()
+    args = train_ETTh1_MyModels_336_24()
+
+
+
     args.train_time = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     args.log_file = args.train_time + "_" + args.model + "_" + args.data + "_" + str(args.seq_len) + "_" + str(args.pred_len) + "_" + str(args.learning_rate) + ".log"
     args.csv_file = args.train_time + "_" + args.model + "_" + args.data + "_" + str(args.seq_len) + "_" + str(args.pred_len) + "_" + str(args.learning_rate) + ".csv"

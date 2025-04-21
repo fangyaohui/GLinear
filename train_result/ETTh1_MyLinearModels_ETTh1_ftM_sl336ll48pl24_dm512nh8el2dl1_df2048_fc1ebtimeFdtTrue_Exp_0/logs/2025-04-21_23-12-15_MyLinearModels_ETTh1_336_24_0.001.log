@@ -1,0 +1,2 @@
+2025-04-21 23:12:15,697 - exp.exp_main - INFO - Logger initialized successfully
+2025-04-21 23:12:15,697 - exp.exp_main - INFO - 确保结果目录存在: ./train_result/ETTh1_MyLinearModels_ETTh1_ftM_sl336ll48pl24_dm512nh8el2dl1_df2048_fc1ebtimeFdtTrue_Exp_0\result_csv/
