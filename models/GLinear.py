@@ -24,11 +24,11 @@ class Model(nn.Module):
         self.Hidden1 = nn.Linear(self.seq_len, self.pred_len)
 
         self.revin_layer = RevIN(self.in_num_features)
-##############################################
+    ##############################################
 
     def forward(self, x):
 
-			##############################################
+    ##############################################
         x = self.revin_layer(x, 'norm')
         x3 = x.permute(0,2,1)
 
@@ -38,7 +38,7 @@ class Model(nn.Module):
 
         x3 = x3.permute(0,2,1)
         x3 = self.revin_layer(x3, 'denorm')
-			##############################################
+        ##############################################
 
 
 
