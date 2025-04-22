@@ -1,0 +1,1 @@
+epoch,model,seq_len,pred_len,data,batch_size,train_loss,vali_loss,test_loss,time_cost,learning_rate,date
