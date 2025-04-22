@@ -3,3 +3,4 @@ matplotlib
 pandas
 scikit-learn
 torch==2.3.1
+h5py==3.13.0
